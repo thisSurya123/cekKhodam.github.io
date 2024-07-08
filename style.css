@@ -1,0 +1,30 @@
+body{
+    background-color: #000000;
+    color: #ffffff
+}
+
+#loading{
+    display: none;
+}
+#cek-lagi{
+    display: none;
+}
+h1{
+    text-align: center;
+}
+.box {
+    width: 350px;
+    margin: 100px auto;
+    border: 1px solid white;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+}
+
+button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
