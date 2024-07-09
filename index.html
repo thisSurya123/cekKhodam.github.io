@@ -9,13 +9,17 @@
 <body>
     
     
-    <h1>Tekan Tombol Untuk Melihat Khodam Anda</h1>
+    <h1>Tekan Tombol <br> Untuk Melihat Khodam Anda</h1>
     <div class="box">
         <h1 id="showKhodam"></h1>
-        <img id="loading" src="https://media.tenor.com/2BLI5EO7yVAAAAAi/loading-image.gif" alt="loading" width="150">
-        <img id="reaction" src="https://media.tenor.com/hqHvXd2lmT4AAAAi/thinking.gif" alt="gambar" width="150">
+        <span id="rare"></span>
+        <div class="khodam">
+            <img id="loading" src="https://media.tenor.com/2BLI5EO7yVAAAAAi/loading-image.gif" alt="loading" width="150">
+            <img id="reaction" src="https://media.tenor.com/hqHvXd2lmT4AAAAi/thinking.gif" alt="gambar" width="150">
+            <p id="desc"></p>
+        </div>
         <button id="btn-khodam" onclick="handleClick()">Cek Khodam</button>
-        <button  id="cek-lagi" onclick="handleClick()">Cek Lagi</button>
+        <button  id="cek-lagi" onclick="reset()">Cek Lagi</button>
     </div>
     <script src="script.js"></script>
 </body>
